@@ -1,5 +1,7 @@
 # safer-text
 
+<sup>**Social Image Photo by [freestocks.org](https://unsplash.com/@freestocks) on [Unsplash](https://unsplash.com/)**</sup>
+
 [![Build Status](https://travis-ci.com/WebReflection/safer-text.svg?branch=master)](https://travis-ci.com/WebReflection/safer-text) [![Coverage Status](https://coveralls.io/repos/github/WebReflection/safer-text/badge.svg?branch=master)](https://coveralls.io/github/WebReflection/safer-text?branch=master) ![WebReflection status](https://offline.report/status/webreflection.svg)
 
 
