@@ -6,6 +6,8 @@ var SaferText = (function (exports) {
   var apply = bind(call, call.apply);
   call = bind(call, call);
 
+  /*! (c) Andrea Giammarchi - ISC */
+
   const {encode, decode} = ((TE, TD) => {
     const {encode} = TE.prototype;
     const {decode} = TD.prototype;

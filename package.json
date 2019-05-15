@@ -8,7 +8,6 @@
   "scripts": {
     "build": "npm run cjs && npm run rollup && npm test && npm run min && npm run size",
     "cjs": "ascjs esm cjs",
-    "clean": "sed -i.bck -e 's/exports\\..*//' index.js && sed -i.bck 's/return exports;/return SaferText;/' index.js && rm index.js.bck",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "min": "echo '/*! (c) Andrea Giammarchi - ISC */' > min.js && uglifyjs index.js -c -m >> min.js",
     "rollup": "rollup --config rollup.config.js",

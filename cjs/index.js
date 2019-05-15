@@ -1,4 +1,6 @@
 'use strict';
+/*! (c) Andrea Giammarchi - ISC */
+
 const {call} = require('safer-function');
 
 const {encode, decode} = ((TE, TD) => {

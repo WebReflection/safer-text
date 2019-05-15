@@ -1,3 +1,5 @@
+/*! (c) Andrea Giammarchi - ISC */
+
 import {call} from 'safer-function';
 
 const {encode, decode} = ((TE, TD) => {
